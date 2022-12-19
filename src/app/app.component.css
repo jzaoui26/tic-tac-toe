@@ -1,0 +1,35 @@
+p {
+  font-family: Lato;
+}
+.board {
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+  width: 60px;
+  height: 60px;
+  background: #3d4250;
+  border: 1px solid;
+  font-family: "FontAwesome";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.box:hover {
+  background: #78bec5;
+}
+
+.x::after{
+  content:"\f00d";
+  color:#dc685a;
+}
+.o::after{
+  content:"\f10c";
+  color:#ecaf4f;
+}
